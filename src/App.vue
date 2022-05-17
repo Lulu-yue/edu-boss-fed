@@ -1,13 +1,14 @@
 <template>
   <div id="app">
-    <h1>拉勾教案</h1>
+    <!-- 根路由出口 -->
     <router-view/>
-
-  <el-row>
-    <el-button>按钮</el-button>
-  </el-row>
   </div>
 </template>
 
-<style lang="scss">
-</style>
+<script>
+export default {
+  name: 'App'
+}
+</script>
+
+<style lang="scss"></style>
